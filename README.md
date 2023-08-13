@@ -84,9 +84,6 @@ dependencies {
     // ...
 }
 
-// ...
-
-// Extract JNI shared libraries as project libraries. This assumes the target directory, $buildDir/extra-jniLibs, is added to the jniLibs.srcDirs configuration.
 task extraJNILibs {
   doLast {
     configurations.extraJNILibs.files.each {
