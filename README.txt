@@ -1,3 +1,5 @@
+https://playtorch.dev/docs/tutorials/get-started/
+
 src/
 CoCoClasses.json
 ObjectDetector.js
